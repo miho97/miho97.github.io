@@ -1,0 +1,10 @@
+title: "Math & AI"
+description: "Notes, derivations, and experiments."
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
+  input: GFM

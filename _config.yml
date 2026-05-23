@@ -1,5 +1,9 @@
 title: "Math & AI"
 description: "Notes, derivations, and experiments."
+url: "https://miho97.github.io"
+baseurl: ""
+lang: en
+timezone: Europe/Zagreb
 theme: minima
 plugins:
   - jekyll-feed
@@ -8,3 +12,12 @@ markdown: kramdown
 kramdown:
   math_engine: mathjax
   input: GFM
+show_excerpts: true
+permalink: /posts/:title/
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      math: true
